@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">TownSeva</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="color_names">
+        <item>APPLIANCES</item>
+        <item>CARPENTRY</item>
+        <item>CLEANING</item>
+        <item>COMPUTER REPAIRING</item>
+        <item>ELECTRICAL</item>
+        <item>LAUNDRY</item>
+        <item>PAINTING</item>
+        <item>PLUMBING</item>
+    </string-array>
+    <string name="feat1">\u2022 Window AC at Rs : 690/AC </string>
+    <string name="feat6">\u2022 Window AC at Rs : 650/AC </string>
+    <string name="feat8">\u2022 Window AC at Rs : 500/AC </string>
+
+    <string name="feat2">\u2022 Split AC at Rs : 1850/AC </string>
+    <string name="feat7">\u2022 Split AC at Rs : 900/AC </string>
+
+    <string name="feat3">\u2022 Includes labour charges only</string>
+
+    <string name="feat4">\u2022 Any parts that requires replacement will be extra</string>
+    <string name="feat5">\u2022 Minimum vising Charges are Rs. 199 </string>
+
+    <string name="feat9">\u2022 Fully-Automatic at Rs : 450/Machine </string>
+    <string name="feat10">\u2022 Semi-Automatic at Rs: 450/Machine </string>
+    <string name="feat11">\u2022 Front-Loading at Rs : 550/Machine </string>
+
+    <string name="feat12">\u2022 Convection/Grill at Rs : 450/Convection/Grill </string>
+
+    <string name="feat13">\u2022 Direct Cool at Rs : 475/Fridge </string>
+    <string name="feat14">\u2022 Frost Free at Rs : 475/Fridge </string>
+    <string name="feat15">\u2022 General Service at Rs : 475/Fridge </string>
+
+    <string name="feat16">\u2022 Direct Cool at Rs : 2000/Fridge </string>
+    <string name="feat17">\u2022 Frost Free at Rs : 2000/Fridge </string>
+
+    <string name="feat18">\u2022 All the rooms in your home would be deep cleaned </string>
+
+    <string name="feat19">\u2022 100% green chemicals used </string>
+    <string name="feat20">\u2022 Every Corners,doors,fitting will be cleaned </string>
+    <string name="feat21">\u2022 Includes cobweb cleaning,highrise dust cleaning </string>
+    <string name="feat22">\u2022 Water Tank at Rs : 1.5/Ltr </string>
+
+    <string name="feat23">\u2022 Doesn\'t include : Deep oil stain removal</string>
+    <string name="feat24">\u2022 Doesn\'t include : Salt Water stain removal</string>
+    <string name="feat25"> \u2022 Doesn\'t include : Window Glass Stain Removal</string>
+
+    <string name="feat26">\u2022 Sofa cleaned with state of the art equipment </string>
+    <string name="feat27">\u2022 100% environment free chemicals </string>
+
+    <string name="feat28">\u2022 Bathroom cleaned with state of the art equipment </string>
+    <string name="feat29">\u2022 Includes Wall cleaning, Wall Scrubbing </string>
+    <string name="feat30">\u2022 Includes Closet Cleaning and Fixture Cleaning </string>
+    <string name="feat31">\u2022 Includes Cabinet Cleaning, Chimney &amp; Slab CLeaning </string>
+    <string name="feat32">\u2022 Includes Sink Cleaning, Wall and Floor Scrubbing </string>
+
+    <string name="feat33">\u2022 All rooms will be deep cleaned </string>
+    <string name="feat34">\u2022 Every space in the house will be clean and germ free</string>
+    <string name="feat35">\u2022 Also includes cobweb cleaning and window cleaning </string>
+    <string name="feat36">\u2022 Property must be empty.Extra Rs.2.50/sqft for above 900 sqft(1BHK), 1200 sqft
+    (2BHK), 1800 sqft(3BHK)&amp;2400sqft(4BHK).</string>
+
+    <string name="feat37">\u2022 Charges are exclusive of materials. Free material procurement
+    from stores within 2kms, above which a cost of Rs.25 is applicable</string>
+
+    <string name="feat38">\u2022 Materials when produced by Helpr will be charged at actuals and
+    bill will be provided from the hardware store</string>
+    <string name="feat39">\u2022 Note : Please make provision for any ladder, stools
+    required as it will not be carried by the helper.</string>
+
+    <string name="feat40">\u2022 Rs.350 for 2 hours and Rs.50 will be charged for every
+    additional 30 minutes</string>
+
+    <string name="feat41">\u2022 Charges includes labour cost and will be charged based on total hour spent</string>
+
+    <string name="feat42">\u2022 A minimum charges of Rs.100 will be applicable
+    if the work is postponed or cancelled</string>
+
+    <string name="feat43">\u2022 Rs.20 to Rs.22.50 per sq.ft. using Dulux paints</string>
+
+    <string name="feat44">\u2022 Fresh Painting: Sanding of walls --> First Coat Primer Application
+    --> Putty Application --> Second Coat Primer Application --> Top Coat Application</string>
+
+    <string name="feat45">\u2022 One Year performance warranty &amp; Periodic Site Inspection</string>
+
+    <string name="feat46">\u2022 Rs.21 to Rs.27 per sq.ft. using Dulux paints</string>
+
+    <string name="feat47">\u2022 Rs.24.50 to Rs.35 per sq.ft. using Dulux paints</string>
+
+    <string name="feat48">\u2022 Rs.10 per sq.ft. using Dulux paints</string>
+
+    <string name="feat49">\u2022 Fresh Painting: Sanding of walls --> First Coat Primer Application
+    --> Putty Application --> Top Coat Application</string>
+
+    <string name="feat50">\u2022 Rs.11 to Rs.13.25 per sq.ft. using Dulux paints</string>
+
+    <string name="feat51">\u2022 Rs.15 to Rs.29 per sq.ft. using Dulux paints</string>
+
+    <string name="feat52">\u2022 Rs.23 to Rs.90 per sq.ft. using Dulux paints</string>
+
+    <string name="feat53">\u2022 Rs.23 to Rs.90 per sq.ft. using Dulux paints</string>
+
+    <string name="feat54">\u2022 Rs.12.25 per sq.ft. using Dulux paints</string>
+
+    <string name="feat55">\u2022 Rs.14.75 per sq.ft. using Dulux paints</string>
+
+    <string name="feat56">\u2022 Rs.16.50 per sq.ft. using Dulux paints</string>
+
+    <string name="feat57">\u2022 Rs. 145 per sq.ft. using Dulux paints</string>
+
+    <string name="feat58">\u2022 Cost effective yet beautiful finish for wooden surfaces</string>
+
+    <string name="feat59">\u2022 Min. visiting charges: Rs.300. Final Cost will be calculated after inspection</string>
+
+    <string name="feat60">\u2022 Charges are exclusive of materials. Free material procurement from stores
+    within 2 kms, above which a fixed cost of Rs. 25 is available</string>
+
+    <string name="feat61">\u2022 Materials when procured by Helpr will be charged at actuals and bill
+    will be provided from the hardware store</string>
+
+    <string name="feat62">\u2022 Note : We do not undertake Bathroom closet blockage, task that
+    require breaking down walls and drainage cleaning</string>
+
+</resources>

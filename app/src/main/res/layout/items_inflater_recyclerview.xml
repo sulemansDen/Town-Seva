@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    tools:context=".Appliances_Services">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textbox"
+        android:textColor="@color/white"
+        android:background="@color/total_bg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="Welcome To Our Services. New Here ? Get Rs200 Off on your first Service. Use Coupen Code APP100."/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textbox"
+        android:id="@+id/rv"
+        android:padding="5dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
