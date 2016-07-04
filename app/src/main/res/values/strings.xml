@@ -1,10 +1,23 @@
 <resources>
-    <string name="app_name">TownSeva</string>
+    <string name="app_name">Town Sewa</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="pref_name">Town</string>
+
+    <string name="pref_user_email_key">user_email</string>
+    <string name="pref_user_name_key">user_name</string>
+    <string name="pref_user_password_key">user_password</string>
+    <string name="pref_user_id_key">user_id</string>
+    <string name="pref_user_mobile_key">user_mobile_id</string>
+    <string name="pref_services_id_key">services_id</string>
+    <string name="pref_sub_services_id_key">sub_services_id</string>
+    <string name="pref_sub_child_services_id_key">sub_child_services_id</string>
+
     <string name="action_settings">Settings</string>
+
+
     <string-array name="color_names">
         <item>APPLIANCES</item>
         <item>CARPENTRY</item>
@@ -124,7 +137,26 @@
     <string name="feat61">\u2022 Materials when procured by Helpr will be charged at actuals and bill
     will be provided from the hardware store</string>
 
-    <string name="feat62">\u2022 Note : We do not undertake Bathroom closet blockage, task that
-    require breaking down walls and drainage cleaning</string>
+
+    <string-array name="servicesName">
+        <item>AC Installation</item>
+        <item>AC UnInstallation</item>
+        <item>AC Servicing</item>
+        <item>Washing Machine Repair</item>
+        <item>Oven Repair</item>
+        <item>Fridge Repair</item>
+        <item>Fridge Gas Charging</item>
+    </string-array>
+    <string-array name="description">
+
+        <item>Get Your AC Installed And Beat The Heat</item>
+        <item>UnInstall Existing Ac</item>
+        <item>Facing Problem With Your AC? We Will Fix It</item>
+        <item>For All Your Washing Machine Problems</item>
+        <item>Lets Get Those Healthy Meal Cooking Again</item>
+        <item>Services For Your Fridge</item>
+        <item>Fridge Losts Its Cool! We Will Pump It Up</item>
+    </string-array>
+
 
 </resources>

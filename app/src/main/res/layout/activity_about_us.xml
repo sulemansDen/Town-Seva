@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#c0c0c0"
+    tools:context=".AboutUs">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Town Sewa is incorporated with the goal to make your lives as comfortable as possible. We are Tri-city’s leading home care and maintenance service provider. Our aim is to help residents with excellent quality home care services. We at Town Sewa make it our commitment to bring professionalism, good service and trust to the home repair service and maintenance business. We take immense pride in sending some of the most professional handymen to your homes to fix things that aren't working.
+
+At Town Sewa we have a specialist solution for every trouble. We offer a unique range of home maintenance services like Electrical, Carpentry, White wash, Civil work, Driver Services, Pest control, A/C repair,  and Plumbing services on one platform!  To find a solution for your home care problems, you can visit our services section.
+"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

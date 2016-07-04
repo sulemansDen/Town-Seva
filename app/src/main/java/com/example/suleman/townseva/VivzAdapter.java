@@ -8,13 +8,18 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;
+
 import java.util.ArrayList;
 
 class VivzAdapter extends BaseAdapter {
-    ArrayList<ColorItem> list;
+    ArrayList<ServiceItem> list;
     Context context;
 
-    VivzAdapter(Context context, ArrayList<ColorItem> list) {
+    ImageLoader imageLoader = AppController.getInstance().getImageLoader();
+
+    VivzAdapter(Context context, ArrayList<ServiceItem> list) {
         this.context = context;
         this.list = list;
     }
@@ -35,12 +40,13 @@ class VivzAdapter extends BaseAdapter {
     }
 
     class ViewHolder {
-        ImageView myColor;
+
         TextView text;
+        NetworkImageView imageView;
 
         ViewHolder(View v) {
-            myColor = (ImageView) v.findViewById(R.id.imageView);
             text = (TextView) v.findViewById(R.id.text);
+            imageView = (NetworkImageView) v.findViewById(R.id.imageView);
         }
     }
 
@@ -48,6 +54,10 @@ class VivzAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View row = view;
         ViewHolder holder = null;
+
+        if (imageLoader == null)
+            imageLoader = AppController.getInstance().getImageLoader();
+
         if (row == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(R.layout.single_item, viewGroup, false);
@@ -57,10 +67,15 @@ class VivzAdapter extends BaseAdapter {
             holder = (ViewHolder) row.getTag();
         }
 
-        holder.myColor.setImageResource(list.get(i).getImageId());
-        holder.text.setText(list.get(i).getCountryName());
-        return row;
+        holder.text.setText(list.get(i).getServiceName());
 
+        // thumbnail image
+        holder.imageView.setImageUrl(list.get(i).getImagLink(), imageLoader);
+
+
+//        holder.myColor.setImageResource(list.get(i).getImageId());
+//        holder.text.setText(list.get(i).getCountryName());
+        return row;
 
     }
 }

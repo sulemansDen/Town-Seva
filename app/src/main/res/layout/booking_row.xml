@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="40dp"
+    android:layout_marginTop="10dp"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C0C0C0">
+
+        <TextView
+            android:id="@+id/ordr"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.4"
+            android:singleLine="true"
+            android:text="Order_ID"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/ordr"
+            android:text="dnflkdsnndvn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/ser"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ordr"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.4"
+            android:singleLine="true"
+            android:text="Service Name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/service_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order_id"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/ser"
+            android:text="dnflkdsnndvn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/sub_cat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ser"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.4"
+            android:singleLine="true"
+            android:text="Sub Category Name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sub_cat_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/service_name"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/sub_cat"
+            android:text="dnflkdsnndvn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_cat"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="Requested Item"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/requested_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_cat_name"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/order"
+            android:text="dnflkdsnndvn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/stat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="Status"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/stat"
+            android:text="dnflkdsnndvn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:orientation="vertical"
+    tools:context=".BookingActivity">
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#1E90FF"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text="Booking With respect to username"
+        android:textColor="#FFF" />
+
+
+    <TextView
+        android:id="@+id/no_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No History Yet"
+        android:visibility="gone"
+        android:textSize="30dp"/>
+
+
+    <com.twotoasters.jazzylistview.JazzyListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_below="@id/header_text"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:elevation="6dp" />
+</RelativeLayout>

@@ -1,103 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.suleman.townseva" >
+    package="com.example.suleman.townseva">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 
     <application
+        android:name=".AppController"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/town_seva_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Appliances_Services" />
-        <activity android:name=".Carpentry_Services" />
-        <activity android:name=".Cleaning_Services" />
-        <activity android:name=".ComputerRepairing_Services" />
-        <activity android:name=".Electrical_Services" />
-        <activity android:name=".Laundry_Services" />
-        <activity android:name=".Painting_Services" />
-        <activity android:name=".Plumbing_Services" />
-        <activity android:name=".AC_Installation" />
-        <activity android:name=".AC_UnInstallation" />
-        <activity android:name=".AC_Servicing" />
-        <activity android:name=".Washing_Machine_Repair" />
-        <activity android:name=".Oven_Repair" />
-        <activity android:name=".Fridge_Repair" />
-        <activity android:name=".Fridge_Gas_Charging" />
-        <activity android:name=".DeepHomeCleaning" />
-        <activity android:name=".ExpressCleaning" />
-        <activity android:name=".SofaCleaning" />
-        <activity android:name=".BathroomCleaning" />
-        <activity android:name=".KitchenCleaning" />
-        <activity android:name=".MoveInCleaning" />
-        <activity android:name=".LightsAndFittings" />
-        <activity android:name=".Fans" />
-        <activity android:name=".PlugnSwitch" />
-        <activity android:name=".TvnEntertainment" />
-        <activity android:name=".Ups" />
-        <activity android:name=".GeneralElectrService" />
-        <activity android:name=".InteriorFreshPaint" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EconomyFeatures"
             android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".SubChildServicesActivity" />
         <activity
-            android:name=".PrimiumFeatures"
-            android:theme="@style/AppTheme.CustomTheme" />
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".LoginActivity" />
         <activity
-            android:name=".SuperPremiumFeatures"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".InteriorRePainting" />
-        <activity
-            android:name=".EconomyRepaint"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".PremiumRepaint"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".ExteriorFreshPaint" />
-        <activity
-            android:name=".ExteriorEconomy"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".ExteriorPremium"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".ExteriorSuperPremium"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".ExteriorRepaint" />
+            android:name=".ProfileActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".BookingActivity" />
 
-        <activity
-            android:name=".EconomyReExt"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".PremiumReExt"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".SuperPremiumReExt"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".WoodPolishing" />
-        '
-        <activity
-            android:name=".InteriorWoodPolish"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".ExteriorWoodPolish"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".LeaksnBlocks" />
-        <activity android:name=".TapsnShowers" />
-        <activity android:name=".ToiletFittings" />
-        <activity android:name=".Accesories" />
-        <activity android:name=".GeneralPlumbing" />
-        <activity android:name=".Address"></activity>
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
 
-</application>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".FAQ"></activity>
+    </application>
 
 </manifest>
